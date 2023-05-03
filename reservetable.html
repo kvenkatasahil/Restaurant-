@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>RESERVE TABLE</title>
+
+<style>
+body 
+{
+color:black;
+  background-image: url('bg3.png');
+ background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+button
+{
+ font-family:Bradley Hand ITC;
+ background-color:black;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table,th,td
+{
+border:1px invisible;
+border-collapse:collapse;
+<!--text-align:center;-->
+padding-right:1px;
+padding-left:1px;
+padding-bottom:1px;
+border-spacing:1px;
+}
+</style>
+<script>
+function formevent()
+{
+alert("Your have reserved your table");
+}
+</script>
+</head>
+<body>
+<table><td style="background-color:#4FC3F7"><img src="Picture1.png" height="100px" width="110px"></td>
+<td style="font-size:300%;padding-left:250px;padding-right:445px;background-color:#FFE0B2;"><p>Welcome to The Heaven Restaurant</p></td>
+</table>
+<table>
+<td style="padding-top:20px;padding-left:70px;padding-bottom:20px;padding-right:70px;"><button onclick="document.location='home.html'"style="font-size:150%;color:#ffffff;">HOME</button></td>
+<td style="padding-top:20px;padding-left:70px;padding-bottom:20px;padding-right:70px;"><button onclick="document.location='about.html'"style="font-size:150%;color:#ffffff;">ABOUT</button></td>
+<td style="padding-top:20px;padding-left:70px;padding-bottom:20px;padding-right:70px;"><button onclick="document.location='menu.html'"style="font-size:150%;color:#ffffff;">MENU</button></td>
+<td style="padding-top:20px;padding-left:70px;padding-bottom:20px;padding-right:70px;"><button onclick="document.location='gallery.html'"style="font-size:150%;color:#ffffff;">GALLERY</button></td>
+<td style="padding-top:20px;padding-left:40px;padding-bottom:20px;padding-right:35px;"><button onclick="document.location='reservetable.html'"style="font-size:150%;color:#ffffff;">RESERVE TABLE</button></td>
+<td style="padding-top:20px;padding-left:40px;padding-bottom:20px;padding-right:53px;"><button onclick="document.location='contactus.html'"style="font-size:150%;color:#ffffff;">CONTACT US</button></td>
+</tr>
+<table>
+<table class="center">
+<td style="font-size:300%;font-family:Algerian;padding-left:125px;padding-right:125px;background-color:#FFDEE9;"><p>Reserve Table</p></td>
+</table>
+<br/>
+<table class="center"  style="font-size:130%;background-color:#FFF9C4;"><tr>
+<td style="padding-left:176px;padding-right:176px;"><p style="font-size:130%;text-align:center;padding-left:50px;padding-right:50px;background-color:;"><h3 style="font-size:130%;text-align:center;background-color:#CCFF90;">The Heaven Restaurant</h3></td></tr><tr><td style="font-size:130%;text-align:center;padding-left:50px;padding-right:50px;">Let us serve you better</td></tr><tr><td style="font-size:130%;padding-left:50px;padding-right:50px;text-align:center;">Don’t wait in a line to enjoy your meal.</td></tr><tr><td style="font-size:130%;padding-left:50px;padding-right:50px;text-align:center;"> Reserve a table in advance with us.</p></tr></td>
+</tr></table>
+<table class="center"  style="font-size:130%;padding-left:50px;padding-right:50px;background-color:#FFF9C4;">
+<form name="reservetable" action="home.html" onsubmit="formevent()">
+<tr>
+<td style="font-size:130%;padding-left:76px;padding-right:76px;" >Select the Location:<br/></td>
+<td style="padding-right:100px;"> <select name="dropdown">
+<option value="SelectOne">Select Location</option>
+<option value="Vijayawada">Vijayawada</option>
+<option value="Delhi">Delhi</option>
+<option value="Hyderabad">Hyderabad</option>
+<option value="Chennai">Chennai</option>
+<option value="Jalandhar">Jalandhar</option>
+<option value="Mumbai">Mumbai</option>
+<option value="Bangalore">Bangalore</option>
+<option value="GandhiNagar">GandhiNagar</option>
+<option value="Vizag">Vishakhapatnam</option>
+<option value="Srinagar">Srinagar</option>
+<option value="Ahmedabad">Ahmedabad</option>
+<option value="Chandigarh">Chandigarh</option>
+<option value="Lucknow">Lucknow</option>
+<option value="Kolkata">Kolkata</option>
+<option value="Patna">Patna</option>
+<option value="Bhubaneswar">Bhubaneswar</option>
+<option value="Ranchi">Ranchi</option>
+</select></br></td>
+</tr>
+<tr>
+<td style="font-size:130%;padding-left:76px;padding-right:76px;" >Number of Guests:</td>
+<td style="padding-right:100px;"><input type="number" min="1" max="10" required/>
+</tr>
+<tr>
+<td style="font-size:130%;padding-left:76px;padding-right:76px;">Date:</td>
+<td style="padding-right:100px;"><input type="date" min="2020-04-15" required/></td>
+</tr>
+<tr>
+<td style="font-size:130%;padding-left:76px;padding-right:76px;">Time</td>
+<td style="padding-right:100px;"><input type="time" required/></td>
+</tr>
+<tr>
+<td style="font-size:130%;padding-left:76px;padding-right:76px;">Session:</td>
+<td style="padding-right:100px;"><input type="radio" name="Lunch" value="on" checked>Dinner
+<input type="radio" name="Lunch" value="on">Lunch</td>
+</tr>
+<tr>
+<td style="padding-left:200px;"><input type="submit" name="Proceed" value="Proceed"/></td>
+</tr>
+</form>
+</table>
+<table>
+<tr><td style="padding-top:20px;padding-left:30px;padding-right:600px;"><button onclick="document.location='feedback.html'"style="font-size:100%;color:#ffffff;">Feedback +</button></td></tr>
+<tr><td style="padding-top:5px;padding-left:30px;padding-right:600px;"><button onclick="document.location='TermsandConditions.html'"style="font-size:100%;color:#ffffff;">Terms&Conditions</button></tr>
+<tr><td style="padding-top:20px;padding-left:30px;padding-right:600px;"><button onclick="document.location='privacypolicy.html'"style="font-size:100%;color:#ffffff;">Privacy Policy</button></td></tr>
+</table>
+</body>
+</html>

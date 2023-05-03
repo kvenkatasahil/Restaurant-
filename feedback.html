@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>FEEDBACK</title>
+<style>
+body 
+{
+color:black;
+  background-image: url('bg3.png');
+ background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+button
+{
+ font-family:Bradley Hand ITC;
+ background-color:black;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+table,th,td
+{
+border:1px invisible;
+border-collapse:collapse;
+padding-right:1px;
+padding-left:1px;
+padding-bottom:1px;
+border-spacing:1px;
+}
+</style>
+<script>
+function formevent()
+{
+alert("Your FeedBack is submitted Sucessfully");
+}
+</script>
+</head>
+<body>
+<table><td style="background-color:#4FC3F7"><img src="Picture1.png" height="100px" width="110px"></td>
+<td style="font-size:300%;padding-left:250px;padding-right:445px;background-color:#FFE0B2;"><p>Welcome to The Heaven Restaurant</p></td>
+</table>
+<table>
+<td style="padding-top:20px;padding-left:70px;padding-bottom:20px;padding-right:70px;"><button onclick="document.location='home.html'"style="font-size:150%;color:#ffffff;">HOME</button></td>
+<td style="padding-top:20px;padding-left:70px;padding-bottom:20px;padding-right:70px;"><button onclick="document.location='about.html'"style="font-size:150%;color:#ffffff;">ABOUT</button></td>
+<td style="padding-top:20px;padding-left:70px;padding-bottom:20px;padding-right:70px;"><button onclick="document.location='menu.html'"style="font-size:150%;color:#ffffff;">MENU</button></td>
+<td style="padding-top:20px;padding-left:70px;padding-bottom:20px;padding-right:70px;"><button onclick="document.location='gallery.html'"style="font-size:150%;color:#ffffff;">GALLERY</button></td>
+<td style="padding-top:20px;padding-left:40px;padding-bottom:20px;padding-right:40px;"><button onclick="document.location='reservetable.html'"style="font-size:150%;color:#ffffff;">RESERVE TABLE</button></td>
+<td style="padding-top:20px;padding-left:40px;padding-bottom:20px;padding-right:47px;"><button onclick="document.location='contactus.html'"style="font-size:150%;color:#ffffff;">CONTACT US</button></td>
+</tr>
+</table>
+<br/><br/>
+<table class="center" style="font-size:130%;padding-left:100px;padding-right:100px;background-color:#FFF9C4;">
+<table class="center"  style="font-size:130%;background-color:#FFF9C4;"><tr>
+<td style="padding-left:283px;padding-right:283px;"><p style="font-size:200%;text-align:center;padding-left:50px;padding-right:50px;background-color:;"><h3 style="font-size:130%;text-align:center;background-color:;">Feedback & Review</h3></p></td></tr>
+</tr></table>
+<table class="center" style="font-size:130%;padding-left:100px;padding-right:100px;background-color:#FFF9C4;">
+<form name="feedback" action="home.html" onsubmit="formevent()">
+<tr>
+<td style="font-size:130%;padding-left:75px;padding-right:75px;padding-top:20px;" >Select the Location:</td>
+<td style="padding-top:20px;"> <select name="dropdown">
+<option value="SelectOne">Select One</option>
+<option value="Vijayawada">Vijayawada</option>
+<option value="Delhi">Delhi</option>
+<option value="Hyderabad">Hyderabad</option>
+<option value="Chennai">Chennai</option>
+<option value="Jalandhar">Jalandhar</option>
+<option value="Mumbai">Mumbai</option>
+<option value="Bangalore">Bangalore</option>
+<option value="GandhiNagar">GandhiNagar</option>
+<option value="Vizag">Vishakhapatnam</option>
+<option value="Srinagar">Srinagar</option>
+<option value="Ahmedabad">Ahmedabad</option>
+<option value="Chandigarh">Chandigarh</option>
+<option value="Lucknow">Lucknow</option>
+<option value="Kolkata">Kolkata</option>
+<option value="Patna">Patna</option>
+<option value="Bhubaneswar">Bhubaneswar</option>
+<option value="Ranchi">Ranchi</option>
+</select></td>
+</tr>
+<tr>
+<td style="font-size:130%;padding-left:75px;padding-right:55px;">First Name:</td>
+<td style=""> <input type="text box" name="firstname" required/></td>
+</tr>
+<td style="font-size:130%;padding-left:75px;padding-right:55px;">Last Name:</td>
+<td> <input type="text box" name="lastname" required/></td>
+</tr>
+<tr>
+<td style="font-size:130%;padding-left:75px;padding-right:55px;">Choose your gender:</td>
+<td><input type="radio" name="gender" value="on" checked>Male
+<input type="radio" name="gender" value="on"  required>Female</td>
+</tr>
+<tr>
+<td style="font-size:130%;padding-left:75px;padding-right:55px;">Phone Number:</td>
+<td> <input type="text box" name="PhoneNumber"  required/></td>
+</tr>
+<tr>
+<td style="font-size:130%;padding-left:75px;padding-right:55px;">Email:</td> 
+<td><input type="email" name="Email"  required/></td>
+</tr>
+<tr>
+<td style="font-size:130%;padding-left:75px;padding-right:55px;">Quality of Food:</td>
+<td><input type="radio" name="1" value="on" checked>Excellent
+<input type="radio" name="1" value="on">Good
+<input type="radio" name="1" value="on">Average
+<input type="radio" name=1" value="on" >Bad</td>
+</tr>
+<tr>
+<td style="font-size:130%;padding-left:75px;padding-right:55px;">Quality for service:</td>
+<td style="padding-right:100px;"><input type="radio" name="2" value="on" checked>Excellent
+<input type="radio" name="2" value="on">Good
+<input type="radio" name="2" value="on">Average
+<input type="radio" name="2" value="on" >Bad</td>
+</tr>
+<tr>
+<td style="font-size:130%;padding-left:75px;padding-right:55px;">Value for money:</td>
+<td style="padding-right:100px;"><input type="radio" name="3" value="on" checked>Excellent
+<input type="radio" name="3" value="on">Good
+<input type="radio" name="3" value="on">Average
+<input type="radio" name="3" value="on" >Bad</td>
+</tr>
+<tr>
+<td style="font-size:130%;padding-left:75px;padding-right:75px;">Ambience:</td>
+<td  style="padding-right:100px;"><input type="radio" name="4" value="on" checked>Excellent
+<input type="radio" name="4" value="on">Good
+<input type="radio" name="3" value="on">Average
+<input type="radio" name="4" value="on">Bad</td>
+</tr>
+
+<tr>
+<td style="font-size:130%;padding-left:75px;padding-right:55px;">Over all Performance: </td>
+<td  style="padding-right:100px;"><input type="radio" name="5" value="on" checked>Excellent
+<input type="radio" name="5" value="on">Good
+<input type="radio" name="5" value="on">Average
+<input type="radio" name="5" value="on">Bad</td>
+</tr>
+</table>
+<table class="center" style="font-size:130%;background-color:#FFF9C4;">
+<tr>
+<td style="font-size:130%;padding-left:100px;padding-right:120px;padding-top:20px;padding-bottom:10px;text-align:center;">FeedBack:(upto 2000 letters)</td></tr><tr>
+<td style="font-size:130%;padding-left:145px;padding-right:116.5px;text-align-center;"><textarea name="feedback" rows="15" cols="70"  required></textarea></td>
+</tr>
+</table>
+<table class="center" style="font-size:130%;padding-left:125px;padding-right:150;text-align:center;background-color:#FFF9C4;">
+<tr>
+<td style="font-size:130%;padding-left:191px;padding-right:191px;text-align:center;">Choose image:</td>
+<td><input type="file" name="upload" accept="image/gif,image/jpge,image/png"/></td>
+</tr>
+<tr>
+<td style="font-size:130%;padding-left:305px;padding-right:100px;padding-top:20px;padding-bottom:20px;text-align:center;"><input type="submit" name="submit" value="Submit"/></td>
+</tr>
+<tr>
+<td style="font-size:130%;padding-left:305px;padding-right:100px;padding-bottom:20px;text-align:center;"><input type="reset" name="reset" value="Reset"/></td>
+</tr>
+<table>
+<tr><td style="padding-top:20px;padding-left:30px;padding-right:600px;"><button onclick="document.location='feedback.html'"style="font-size:100%;color:#ffffff;">Feedback +</button></td></tr>
+<tr><td style="padding-top:5px;padding-left:30px;padding-right:600px;"><button onclick="document.location='TermsandConditions.html'"style="font-size:100%;color:#ffffff;">Terms&Conditions</button></tr>
+<tr><td style="padding-top:5px;padding-left:30px;padding-right:600px;"><button onclick="document.location='privacypolicy.html'"style="font-size:100%;color:#ffffff;">Privacy Policy</button></td></tr>
+</table>
+
+</form>
+</body>
+</html>
